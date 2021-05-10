@@ -1,0 +1,104 @@
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\MedchartSeleniumAutomationCore.dll.config
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\MedchartSeleniumAutomationCore.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\MedchartSeleniumAutomationCore.pdb
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\AutoItX3.Assembly.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\ExcelDataReader.DataSet.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\ExcelDataReader.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\FluentAssertions.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\log4net.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Buffers.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Memory.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Numerics.Vectors.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\WebDriver.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\WebDriver.Support.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.abstractions.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.assert.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.core.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.execution.desktop.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\AutoItX3.Assembly.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\ExcelDataReader.pdb
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\ExcelDataReader.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\ExcelDataReader.DataSet.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\FluentAssertions.pdb
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\FluentAssertions.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\log4net.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Buffers.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Memory.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Numerics.Vectors.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\WebDriver.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\WebDriver.Support.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.assert.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.core.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.execution.desktop.xml
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\obj\Debug\MedchartSeleniumAutomationCore.csprojAssemblyReference.cache
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\obj\Debug\MedchartSeleniumAutomationCore.csproj.CoreCompileInputs.cache
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\obj\Debug\MedchartSeleniumAutomationCore.csproj.CopyComplete
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\obj\Debug\MedchartSeleniumAutomationCore.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\obj\Debug\MedchartSeleniumAutomationCore.pdb
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.runner.reporters.net452.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.runner.utility.net452.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\AutoItX3.dll
+C:\_tfs\RCCUIT\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\AutoItX3_x64.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.runner.utility.net452.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.abstractions.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\AutoItX3.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\AutoItX3_x64.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\MedchartSeleniumAutomationCore.dll.config
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\MedchartSeleniumAutomationCore.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\MedchartSeleniumAutomationCore.pdb
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\AutoItX3.Assembly.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\ExcelDataReader.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\FluentAssertions.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\log4net.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Buffers.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Memory.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\WebDriver.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\WebDriver.Support.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.assert.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.core.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.execution.desktop.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\AutoItX3.Assembly.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\ExcelDataReader.pdb
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\ExcelDataReader.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\FluentAssertions.pdb
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\FluentAssertions.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\log4net.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Buffers.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Memory.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\WebDriver.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\WebDriver.Support.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.assert.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.core.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\bin\Debug\xunit.execution.desktop.xml
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\obj\Debug\MedchartSeleniumAutomationCore.csprojAssemblyReference.cache
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\obj\Debug\MedchartSeleniumAutomationCore.csproj.CoreCompileInputs.cache
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\obj\Debug\MedchartSeleniumAutomationCore.csproj.CopyComplete
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\obj\Debug\MedchartSeleniumAutomationCore.dll
+C:\Users\gmuah\Downloads\Medchart Automated Testing\Automated Testing\MedchartSeleniumAutomation\MedchartSeleniumAutomationCore\obj\Debug\MedchartSeleniumAutomationCore.pdb

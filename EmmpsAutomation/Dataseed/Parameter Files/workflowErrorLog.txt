@@ -1,0 +1,164 @@
+﻿Time: 03/04/2020 10:31:23 AM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Error executing JavaScript
+-----------------------------------------------------------
+
+Time: 03/04/2020 10:40:41 AM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element Not Found : By.Id: MEDCHARTContent_EmmpsContent_unitControl_IncidentCityTextBox
+-----------------------------------------------------------
+
+Time: 03/04/2020 02:27:20 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Timed out after 6E-06 seconds
+-----------------------------------------------------------
+
+Time: 03/04/2020 02:30:05 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Timed out after 6E-06 seconds
+-----------------------------------------------------------
+
+Time: 03/04/2020 02:33:05 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element Not Found : By.Chained([By.XPath: //div[@title='Medical Documents (Civ/Mil)'],By.Id: UploadButton])
+-----------------------------------------------------------
+
+Time: 03/04/2020 05:06:36 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 05:08:14 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 05:13:38 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 05:15:26 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 05:21:40 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 05:23:02 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 05:24:33 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 05:27:15 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 05:29:16 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 05:32:56 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 05:35:17 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 05:47:02 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 05:54:48 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Error executing JavaScript
+-----------------------------------------------------------
+
+Time: 03/04/2020 06:28:07 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 06:30:41 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 06:33:11 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 06:38:12 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element not clickable at point (0,0). Other element would receive the click:  (elementsFromPoint index -1)
+-----------------------------------------------------------
+
+Time: 03/04/2020 07:02:48 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element Not Found : By.Chained([By.XPath: //div[@title='Medical Documents (Civ/Mil)'],By.Id: UploadButton])
+-----------------------------------------------------------
+
+Time: 03/04/2020 07:10:06 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element is not displayed
+-----------------------------------------------------------
+
+Time: 03/04/2020 07:22:57 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Next Action Button disabled.
+-----------------------------------------------------------
+
+Time: 03/04/2020 07:26:31 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Next Action Button disabled.
+-----------------------------------------------------------
+
+Time: 03/04/2020 07:30:09 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Error executing JavaScript
+-----------------------------------------------------------
+
+Time: 03/04/2020 07:37:22 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Element is not displayed
+-----------------------------------------------------------
+
+Time: 03/04/2020 07:45:40 PM EDIPIN = 8880070023, Id = 221009554, Error occured in: ARDeathFormal UnitCommander,  
+Message: Timed out after 60 seconds
+-----------------------------------------------------------
+
+Time: 03/04/2020 08:31:11 PM EDIPIN = 8880070023, Id = 221009554, Error occured in: ARDeathFormal UnitCommander,  
+Message: Element not clickable at point (1435,451). Other element would receive the click: <div class="waiting-background" id="waitDiv" style="visibility: visible;"> (elementsFromPoint index 0)
+-----------------------------------------------------------
+
+Time: 03/04/2020 08:36:32 PM EDIPIN = 8880070023, Id = 221009554, Error occured in: ARDeathFormal UnitCommander,  
+Message: Element not clickable at point (1435,451). Other element would receive the click: <div class="waiting-background" id="waitDiv" style="visibility: visible;"> (elementsFromPoint index 0)
+-----------------------------------------------------------
+
+Time: 03/04/2020 08:57:27 PM EDIPIN = 8880070023, Id = 221009554, Error occured in: ARDeathFormal UnitCommander,  
+Message: Element not clickable at point (1435,451). Other element would receive the click: <div class="waiting-background" id="waitDiv" style="visibility: visible;"> (elementsFromPoint index 0)
+-----------------------------------------------------------
+
+Time: 03/04/2020 09:01:08 PM EDIPIN = 8880070023, Id = 221009554, Error occured in: ARDeathFormal UnitCommander,  
+Message: Element not clickable at point (1435,451). Other element would receive the click: <div class="waiting-background" id="waitDiv" style="visibility: visible;"> (elementsFromPoint index 0)
+-----------------------------------------------------------
+
+Time: 03/04/2020 09:18:39 PM EDIPIN = 8880070023, Id = 221009554, Error occured in: ARDeathFormal UnitCommander,  
+Message: Element not clickable at point (1435,451). Other element would receive the click: <div class="waiting-background" id="waitDiv" style="visibility: visible;"> (elementsFromPoint index 0)
+-----------------------------------------------------------
+
+Time: 03/04/2020 09:34:46 PM EDIPIN = 8880070023, Id = 221009554, Error occured in: ARDeathFormal UnitCommander,  
+Message: Timed out after 6E-06 seconds
+-----------------------------------------------------------
+
+Time: 03/04/2020 09:36:51 PM EDIPIN = 8880070023, Id = 221009554, Error occured in: ARDeathFormal UnitCommander,  
+Message: Element not clickable at point (1435,451). Other element would receive the click: <div class="waiting-background" id="waitDiv" style="visibility: visible;"> (elementsFromPoint index 0)
+-----------------------------------------------------------
+
+Time: 03/04/2020 09:38:23 PM EDIPIN = 8880070023, Id = 221009554, Error occured in: ARDeathFormal UnitCommander,  
+Message: Element not clickable at point (1435,451). Other element would receive the click: <div class="waiting-background" id="waitDiv" style="visibility: visible;"> (elementsFromPoint index 0)
+-----------------------------------------------------------
+
+Time: 03/04/2020 09:40:42 PM EDIPIN = 8880070023, Id = 221009554, Error occured in: ARDeathFormal UnitCommander,  
+Message: Element not clickable at point (1425,104). Other element would receive the click: <div class="waiting-background" id="waitDiv" style="visibility: visible;"> (elementsFromPoint index 0)
+-----------------------------------------------------------
+
+Time: 03/04/2020 10:27:25 PM EDIPIN = 8880070022, Id = 221009554, Error occured in: ARDeathFormal StartLOD,  
+Message: Error executing JavaScript
+-----------------------------------------------------------
+
+Time: 03/04/2020 10:35:00 PM EDIPIN = 8880070023, Id = 221009554, Error occured in: ARDeathFormal UnitCommander,  
+Message: Error from JavaScript: Permission denied
+-----------------------------------------------------------
+
+Time: 03/04/2020 10:42:51 PM EDIPIN = 8880070029, Id = 221009554, Error occured in: ARDeathFormal AppointingAuthority,  
+Message: Error executing JavaScript
+-----------------------------------------------------------
+

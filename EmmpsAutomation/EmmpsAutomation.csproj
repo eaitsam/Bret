@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\xunit.runner.visualstudio.2.4.2\build\net452\xunit.runner.visualstudio.props" Condition="Exists('..\packages\xunit.runner.visualstudio.2.4.2\build\net452\xunit.runner.visualstudio.props')" />
+  <Import Project="..\packages\xunit.core.2.4.1\build\xunit.core.props" Condition="Exists('..\packages\xunit.core.2.4.1\build\xunit.core.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{00B579B5-7B27-4E0E-9EC5-58055A5554E8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EmmpsAutomation</RootNamespace>
+    <AssemblyName>EmmpsAutomation</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoItX3.Assembly, Version=3.0.0.0, Culture=neutral, PublicKeyToken=a646454c8d475470, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoItX.Dotnet.3.3.14.5\lib\AutoItX3.Assembly.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentAssertions, Version=5.10.3.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentAssertions.5.10.3\lib\net47\FluentAssertions.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebDriver, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.141.0\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.141.0\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.abstractions.2.0.3\lib\net35\xunit.abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.assert, Version=2.4.1.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.assert.2.4.1\lib\netstandard1.1\xunit.assert.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.core, Version=2.4.1.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.extensibility.core.2.4.1\lib\net452\xunit.core.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.execution.desktop, Version=2.4.1.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.extensibility.execution.2.4.1\lib\net452\xunit.execution.desktop.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dataseed\ADOP Workflows\AR ADME.cs" />
+    <Compile Include="Dataseed\ADOP Workflows\AR MRP2.cs" />
+    <Compile Include="Dataseed\ADOP Workflows\ARSRU.cs" />
+    <Compile Include="Dataseed\ADOP Workflows\NG ADME.cs" />
+    <Compile Include="Dataseed\ADOP Workflows\NG MRP2.cs" />
+    <Compile Include="Dataseed\INCAP Workflows\ARINCAP.cs" />
+    <Compile Include="Dataseed\INCAP Workflows\NGINCAP.cs" />
+    <Compile Include="Dataseed\LOD Workflows\ARDeathFormal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\ARDeathInformal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\ARFormal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\ARInformal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\ARPreapprovedInformal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\ARRestrictedAssaultInformal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\ARUnrestrictedAssaultInformal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\DEMOBInformal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\DEMOBPreapprovedInformal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\NGDeathFormal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\NGDeathInformal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\NGMDayFormal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\NGMDayInformal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\NGOCONOUSFormal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\NGOCONOUSInformal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\NGPreapprovedInformal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\NGRestrictedAssaultInformal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\NGTitle10Formal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\NGTitle10Informal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\NGTitle32Formal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\NGTitle32Informal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\NGUnrestrictedAssaultInformal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\WTUInformal.cs" />
+    <Compile Include="Dataseed\LOD Workflows\WTUPreapprovedInformal.cs" />
+    <Compile Include="Dataseed\MMSO Workflows\ARFollowupCarePreAuth.cs" />
+    <Compile Include="Dataseed\MMSO Workflows\ARMMSOPreAuth.cs" />
+    <Compile Include="Dataseed\MMSO Workflows\ARRestrictedFollowupCarePreAuth.cs" />
+    <Compile Include="Dataseed\MMSO Workflows\ARRestrictedPreAuth.cs" />
+    <Compile Include="Dataseed\MMSO Workflows\ARRestrictedSurgicalPreAuth.cs" />
+    <Compile Include="Dataseed\MMSO Workflows\ARSurgicalPreAuth.cs" />
+    <Compile Include="Dataseed\MMSO Workflows\NGFollowupCarePreAuth.cs" />
+    <Compile Include="Dataseed\MMSO Workflows\NGMMSOPreAuth.cs" />
+    <Compile Include="Dataseed\MMSO Workflows\NGRestrictedFollowupCarePreAuth.cs" />
+    <Compile Include="Dataseed\MMSO Workflows\NGRestrictedPreAuth.cs" />
+    <Compile Include="Dataseed\MMSO Workflows\NGRestrictedSurgicalPreAuth.cs" />
+    <Compile Include="Dataseed\MMSO Workflows\NGSurgicalPreAuth.cs" />
+    <Compile Include="PageObjectModel\ADOP\AdminTools.cs" />
+    <Compile Include="PageObjectModel\ADOP\AdopAdminPage.cs" />
+    <Compile Include="PageObjectModel\ADOP\AdopBoardPage.cs" />
+    <Compile Include="PageObjectModel\ADOP\AdopDocsPage.cs" />
+    <Compile Include="PageObjectModel\ADOP\AdopForm4Page.cs" />
+    <Compile Include="PageObjectModel\ADOP\AdopNextActionPage.cs" />
+    <Compile Include="PageObjectModel\ADOP\AdopOrdersPage.cs" />
+    <Compile Include="PageObjectModel\ADOP\AdopSoldierPage.cs" />
+    <Compile Include="PageObjectModel\ADOP\AdopTrackingPage.cs" />
+    <Compile Include="PageObjectModel\ADOP\StartNewAdopPage.cs" />
+    <Compile Include="PageObjectModel\EmmpsContent Shared Objects\EMMPSCaseMenuNav.cs" />
+    <Compile Include="PageObjectModel\EmmpsContent Shared Objects\EmmpsSearchObjects.cs" />
+    <Compile Include="PageObjectModel\INCAP\MyIncapAdminPage.cs" />
+    <Compile Include="PageObjectModel\INCAP\MyIncapCalcPage.cs" />
+    <Compile Include="PageObjectModel\INCAP\MyIncapDetailsPage.cs" />
+    <Compile Include="PageObjectModel\INCAP\MyIncapDocs.cs" />
+    <Compile Include="PageObjectModel\INCAP\MyIncapExtPage.cs" />
+    <Compile Include="PageObjectModel\INCAP\MyIncapFinances.cs" />
+    <Compile Include="PageObjectModel\INCAP\MyIncapNextActionPage.cs" />
+    <Compile Include="PageObjectModel\INCAP\MyIncapSoldierPage.cs" />
+    <Compile Include="PageObjectModel\INCAP\MyIncapTrackingPage.cs" />
+    <Compile Include="PageObjectModel\INCAP\StartIncapPage.cs" />
+    <Compile Include="PageObjectModel\MMSO\MMSOAuthorizations.cs" />
+    <Compile Include="PageObjectModel\MMSO\MMSOPageObjectModel.cs" />
+    <Compile Include="PageObjectModel\MMSO\PreAuthAdminPage.cs" />
+    <Compile Include="PageObjectModel\MMSO\PreAuthAssociatePage.cs" />
+    <Compile Include="PageObjectModel\MMSO\PreAuthDocsPage.cs" />
+    <Compile Include="PageObjectModel\MMSO\PreAuthFollowupCarePage.cs" />
+    <Compile Include="PageObjectModel\MMSO\PreAuthFormsPage.cs" />
+    <Compile Include="PageObjectModel\MMSO\PreAuthNextActionPage.cs" />
+    <Compile Include="PageObjectModel\MMSO\PreAuthSelectCasePage.cs" />
+    <Compile Include="PageObjectModel\MMSO\PreAuthTrackingPage.cs" />
+    <Compile Include="Tests\ADOP\AdminToolsTab.cs" />
+    <Compile Include="Tests\ADOP\DocumentTab.cs" />
+    <Compile Include="Tests\ADOP\OrdersTab.cs" />
+    <Compile Include="Tests\ADOP\StartADOP.cs" />
+    <Compile Include="Tests\INCAP\INCAPCalculator.cs" />
+    <Compile Include="Tests\INCAP\INCAPDocuments.cs" />
+    <Compile Include="Tests\INCAP\INCAPFinance.cs" />
+    <Compile Include="Tests\INCAP\INCAPSoldier.cs" />
+    <Compile Include="Tests\INCAP\INCAPTracking.cs" />
+    <Compile Include="Tests\INCAP\StartINCAP.cs" />
+    <Compile Include="Tests\LOD\AdminOverride.cs" />
+    <Compile Include="Tests\LOD\AdminTab.cs" />
+    <Compile Include="Tests\LOD\DocumentsTab.cs" />
+    <Compile Include="Tests\LOD\LODNextActionTab.cs" />
+    <Compile Include="Tests\LOD\MedicalTab.cs" />
+    <Compile Include="Tests\LOD\MyLODSearch.cs" />
+    <Compile Include="Tests\LOD\soldierTab.cs" />
+    <Compile Include="Tests\LOD\StartLOD.cs" />
+    <Compile Include="Tests\LOD\UnitTab.cs" />
+    <Compile Include="PageObjectModel\INCAP\INCAPExtensionsPage.cs" />
+    <Compile Include="Tests\MMSO\NGRestrictedFollowupCarePreAuth02.cs" />
+    <Compile Include="Tests\MMSO\StartMMSONGFollowupCarePreAuth[Form 02].cs" />
+    <Compile Include="Tests\MMSO\SurgicalPreAuthForm06.cs" />
+    <Compile Include="Tests\Permissions\ManageUsersPermissions.cs" />
+    <Compile Include="Tests\Permissions\MyAccountPermissions.cs" />
+    <Compile Include="PageObjectModel\ADOP\AdopNav.cs" />
+    <Compile Include="PageObjectModel\UserManagement\EmmpsPermissions.cs" />
+    <Compile Include="PageObjectModel\INCAP\MyINCAPPage%28Deprecated%29.cs" />
+    <Compile Include="PageObjectModel\LOD\LODAdminTab.cs" />
+    <Compile Include="PageObjectModel\LOD\LODApptTab.cs" />
+    <Compile Include="PageObjectModel\LOD\LODDocuments.cs" />
+    <Compile Include="PageObjectModel\LOD\LODFormFindingsTab.cs" />
+    <Compile Include="PageObjectModel\LOD\LODInvestigationTab.cs" />
+    <Compile Include="PageObjectModel\LOD\LODMedicalTab.cs" />
+    <Compile Include="PageObjectModel\LOD\LODNextActionTab.cs" />
+    <Compile Include="PageObjectModel\LOD\LODSoldierTab.cs" />
+    <Compile Include="PageObjectModel\LOD\LODTrackingTab.cs" />
+    <Compile Include="PageObjectModel\LOD\LODUnitTabPage.cs" />
+    <Compile Include="PageObjectModel\LOD\LODSearchPage.cs" />
+    <Compile Include="PageObjectModel\UserManagement\ManageUsersPage.cs" />
+    <Compile Include="PageObjectModel\MMSO\MMSONav.cs" />
+    <Compile Include="PageObjectModel\LOD\MyLODMenuNav.cs" />
+    <Compile Include="PageObjectModel\LOD\StartNewLODPage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\ARInvestigatorDataTable.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\ARNGManagerDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\ARSARCDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\ARUnitAdminDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\ARUnitCommanderDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\CrossComDAG1AdminDataTable.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\CrossComDAG1ApprovalDataTable.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\CrossComHRCReviewerDataTable.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\CrossComLeadHRCReviewerDataTable.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\CrossComLeadMMSOReviewer.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\CrossComLeadMMSOReviewerDataTable.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\DEMOBApprovalDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\LODOversightDataTable.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGInvestigatorDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGNGBJAGDataTable.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGNGBReviewerDataTable.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\DivRAdminDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\DIVRApprovalDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\DIVRPDHRAManagerDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\eMMPSUSARManagerDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\G1PDHRAManagerDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\MSCAdminDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\MSCApprovalDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\MSCLegalReviewDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\MSCMedicalReviewDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGAppointingAuthorityDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGIntermedCommandReviewDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGNGBOversightDataTable.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGNGBSurgeonDataTable.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGSARCDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGStateAdminDataTable.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGStateApproval.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGStateJagDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGStateOversightDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGStateSurgeonDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGUnitAdminDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\NGUnitCommanderDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\OSTGApprovalDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\OSTGViewOnlyDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\PDHRACallCenterDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\USARCG1AdminDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\USARCG1OversightDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\USARCLegalReviewDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\USARCMedicalReview.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\USARCSARCManagerDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\USARDivRLegalReview.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\USARDivRMedicalReviewDataTables.cs" />
+    <Compile Include="Tests\Permissions\Shared Context\USARDivROversightDataTables.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dataseed\Parameter Files\INCAP\ARINCAP.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\INCAP\NGINCAP.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\ARDeathFormal.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\ARDeathInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\ARFormal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\ARInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\ARPreApprovedInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\ARRestrictedAssaultInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\ARUnrestrictedAssaultInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\DEMOBInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\DEMOBPreapprovedInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\NGDeathInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\NGMDayFormal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\NGMDayInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\NGOCONOUSFormal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\NGOCONOUSInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\NGPreApprovedInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\NGRestrictedAssaultInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\NGTitle10Formal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\NGTitle10Informal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\NGTitle32Formal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\NGTitle32Informal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\NGUnrestrictedAssaultInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\WTUInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\LOD\WTUPreapprovedInformal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\MMSO\ARFollowupCarePreAuth.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\MMSO\ARMMSOPreAuth.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\MMSO\ARMMSORestrictedPreAuth.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\MMSO\ARRestrictedFollowupCarePreAuth.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\MMSO\ARRestrictedSurgicalPreAuth.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\MMSO\ARSurgicalPreAuth.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\MMSO\NGFollowupCarePreAuth.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\MMSO\NGMMSOPreAuth.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\MMSO\NGRestrictedFollowupCarePreAuth.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\MMSO\NGRestrictedPreAuth.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\MMSO\NGRestrictedSurgicalPreAuth.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dataseed\Parameter Files\MMSO\NGSurgicalPreAuth.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="..\MedchartSeleniumAutomationCore\App.config">
+      <Link>App.config</Link>
+    </None>
+    <None Include="Dataseed\Parameter Files\ADOP\AR ADME.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Dataseed\Parameter Files\ADOP\AR MRP2.xlsx" />
+    <None Include="Dataseed\Parameter Files\ADOP\ARSRU.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Dataseed\Parameter Files\ADOP\NG ADME.xlsx" />
+    <None Include="Dataseed\Parameter Files\ADOP\NGMRP2.xlsx" />
+    <None Include="Dataseed\Parameter Files\LOD\NGDeathFormal.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="log4net.config" />
+    <None Include="packages.config" />
+    <None Include="Project Items\TestFile.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="xunit.runner.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MedchartSeleniumAutomationCore\MedchartSeleniumAutomationCore.csproj">
+      <Project>{cd72953b-2593-4e43-ae77-0a4e2429846a}</Project>
+      <Name>MedchartSeleniumAutomationCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dataseed\Parameter Files\workflowErrorLog.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\AutoItX.Dotnet.3.3.14.5\build\AutoItX.Dotnet.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\AutoItX.Dotnet.3.3.14.5\build\AutoItX.Dotnet.targets'))" />
+    <Error Condition="!Exists('..\packages\xunit.core.2.4.1\build\xunit.core.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core.2.4.1\build\xunit.core.props'))" />
+    <Error Condition="!Exists('..\packages\xunit.core.2.4.1\build\xunit.core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core.2.4.1\build\xunit.core.targets'))" />
+    <Error Condition="!Exists('..\packages\xunit.runner.visualstudio.2.4.2\build\net452\xunit.runner.visualstudio.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.runner.visualstudio.2.4.2\build\net452\xunit.runner.visualstudio.props'))" />
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.GeckoDriver.0.26.0.5\build\Selenium.WebDriver.GeckoDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.GeckoDriver.0.26.0.5\build\Selenium.WebDriver.GeckoDriver.targets'))" />
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\build\Selenium.WebDriver.ChromeDriver.targets'))" />
+  </Target>
+  <Import Project="..\packages\AutoItX.Dotnet.3.3.14.5\build\AutoItX.Dotnet.targets" Condition="Exists('..\packages\AutoItX.Dotnet.3.3.14.5\build\AutoItX.Dotnet.targets')" />
+  <Import Project="..\packages\xunit.core.2.4.1\build\xunit.core.targets" Condition="Exists('..\packages\xunit.core.2.4.1\build\xunit.core.targets')" />
+  <Import Project="..\packages\Selenium.WebDriver.GeckoDriver.0.26.0.5\build\Selenium.WebDriver.GeckoDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.GeckoDriver.0.26.0.5\build\Selenium.WebDriver.GeckoDriver.targets')" />
+  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\build\Selenium.WebDriver.ChromeDriver.targets')" />
+</Project>
