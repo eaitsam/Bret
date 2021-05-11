@@ -6225,20 +6225,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CreativeSims\\.nuget\\packages\\": {}
+    "C:\\Users\\gmuah\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bret New stuff\\EFMPAutomationTests-master\\EFMPAutomationTests-master\\EFMP Tests\\facebook1\\facebook1.csproj",
+      "projectUniqueName": "C:\\Desktop\\Bret\\facebook1\\facebook1.csproj",
       "projectName": "facebook1",
-      "projectPath": "D:\\Bret New stuff\\EFMPAutomationTests-master\\EFMPAutomationTests-master\\EFMP Tests\\facebook1\\facebook1.csproj",
-      "packagesPath": "C:\\Users\\CreativeSims\\.nuget\\packages\\",
-      "outputPath": "D:\\Bret New stuff\\EFMPAutomationTests-master\\EFMPAutomationTests-master\\EFMP Tests\\facebook1\\obj\\",
+      "projectPath": "C:\\Desktop\\Bret\\facebook1\\facebook1.csproj",
+      "packagesPath": "C:\\Users\\gmuah\\.nuget\\packages\\",
+      "outputPath": "C:\\Desktop\\Bret\\facebook1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "D:\\Bret New stuff\\EFMPAutomationTests-master\\EFMPAutomationTests-master\\EFMP Tests\\NuGet.Config",
-        "C:\\Users\\CreativeSims\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Desktop\\Bret\\NuGet.Config",
+        "C:\\Users\\gmuah\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6306,7 +6306,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
