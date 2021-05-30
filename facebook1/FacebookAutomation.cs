@@ -3,22 +3,33 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Interactions;
+using System.Threading;
+using System;
 
 namespace facebook1
 {
     public class FacebookAutomation
     {
         [Fact]
-        public void Test1()
+        public void Test1() 
         {
             IWebDriver driver = new ChromeDriver(); //Chrome thing is fixed
             
              driver.Url = "https://www.ebay.com/";
             IWebElement Electronics = driver.FindElement(By.LinkText("Electronics"));
+
+            //driver.Manage().Timeouts().ImplicitWait();
+            
+           
+
             IWebElement Iphone = driver.FindElement(By.LinkText("iPhones"));
            
             Actions action = new Actions(driver);
+            
             action.MoveToElement(Electronics).Build().Perform();
+
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(50);
+
             action.MoveToElement(Iphone).Click();
 
 
