@@ -14,23 +14,25 @@ namespace facebook1
         public void Test1() 
         {
             IWebDriver driver = new ChromeDriver(); //Chrome thing is fixed
-            
-             driver.Url = "https://www.ebay.com/";
+
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+
+            driver.Url = "https://www.ebay.com/";
             IWebElement Electronics = driver.FindElement(By.LinkText("Electronics"));
 
             //driver.Manage().Timeouts().ImplicitWait();
             
            
 
-            IWebElement Iphone = driver.FindElement(By.LinkText("iPhones"));
+            IWebElement AppleAddress = driver.FindElement(By.LinkText("Apple"));
            
             Actions action = new Actions(driver);
             
             action.MoveToElement(Electronics).Build().Perform();
 
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(50);
 
-            action.MoveToElement(Iphone).Click();
+
+            AppleAddress.Click();
 
 
 

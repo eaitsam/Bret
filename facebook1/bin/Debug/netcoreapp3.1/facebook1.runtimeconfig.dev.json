@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\gmuah\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\gmuah\\.nuget\\packages"
+      "C:\\Users\\CreativeSims\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\CreativeSims\\.nuget\\packages"
     ]
   }
 }
