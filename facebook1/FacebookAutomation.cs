@@ -19,18 +19,21 @@ namespace facebook1
             IWebElement Electronics = driver.FindElement(By.LinkText("Electronics"));
 
             //driver.Manage().Timeouts().ImplicitWait();
-            
-           
 
-            IWebElement Iphone = driver.FindElement(By.LinkText("iPhones"));
-           
+
+
+             IWebElement Iphone = driver.FindElement(By.LinkText("iPhones"));
+              // IWebElement Iphone = driver.FindElement(By.XPath("//a[@href="https://www.ebay.com/b/Apple-iPhone/9355/bn_319682"]));
+
             Actions action = new Actions(driver);
             
             action.MoveToElement(Electronics).Build().Perform();
 
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(50);
 
-            action.MoveToElement(Iphone).Click();
+            //action.MoveToElement(Iphone).Click();
+
+            action.Click(Iphone);
 
 
 
