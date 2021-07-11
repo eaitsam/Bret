@@ -15,36 +15,45 @@ namespace facebook1
         {
             IWebDriver driver = new ChromeDriver(); //Chrome thing is fixed
 
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+          //  driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
             driver.Url = "https://www.ebay.com/";
+
+            driver.Manage().Window.Maximize();
+
             IWebElement Electronics = driver.FindElement(By.LinkText("Electronics"));
+
+            Electronics.Click();
+
 
             //driver.Manage().Timeouts().ImplicitWait();
 
-<<<<<<< HEAD
 
 
-             IWebElement Iphone = driver.FindElement(By.LinkText("iPhones"));
-              // IWebElement Iphone = driver.FindElement(By.XPath("//a[@href="https://www.ebay.com/b/Apple-iPhone/9355/bn_319682"]));
 
-=======
-            IWebElement AppleAddress = driver.FindElement(By.LinkText("Apple"));
+            ////driver.Manage().Timeouts().ImplicitWait();
+            //IWebElement Iphone = driver.FindElement(By.LinkText("Electronics"));
+            //  // IWebElement Iphone = driver.FindElement(By.XPath("//a[@href="https://www.ebay.com/b/Apple-iPhone/9355/bn_319682"]));
+
+
+            //IWebElement AppleAddress = driver.FindElement(By.LinkText("Apple"));
            
->>>>>>> 2b5418f55d9dbfe041e3aab623853c6c994843b9
+
             Actions action = new Actions(driver);
+            action.Click(Electronics);
             
-            action.MoveToElement(Electronics).Build().Perform();
+            //action.MoveToElement(Electronics).Build().Perform();
 
 
-<<<<<<< HEAD
-            //action.MoveToElement(Iphone).Click();
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
 
-            action.Click(Iphone);
-=======
+            ////action.MoveToElement(Iphone).Click();
 
-            AppleAddress.Click();
->>>>>>> 2b5418f55d9dbfe041e3aab623853c6c994843b9
+            //action.Click(Iphone);
+
+
+            //AppleAddress.Click();
+
 
 
 

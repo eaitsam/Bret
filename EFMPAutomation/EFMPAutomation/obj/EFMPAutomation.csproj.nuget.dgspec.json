@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CreativeSims\\Desktop\\GitHub\\Bret\\EFMPAutomation\\EFMPAutomation\\EFMPAutomation.csproj": {}
+    "C:\\Desktop\\Bret\\EFMPAutomation\\EFMPAutomation\\EFMPAutomation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CreativeSims\\Desktop\\GitHub\\Bret\\EFMPAutomation\\EFMPAutomation\\EFMPAutomation.csproj": {
+    "C:\\Desktop\\Bret\\EFMPAutomation\\EFMPAutomation\\EFMPAutomation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CreativeSims\\Desktop\\GitHub\\Bret\\EFMPAutomation\\EFMPAutomation\\EFMPAutomation.csproj",
+        "projectUniqueName": "C:\\Desktop\\Bret\\EFMPAutomation\\EFMPAutomation\\EFMPAutomation.csproj",
         "projectName": "EFMPAutomation",
-        "projectPath": "C:\\Users\\CreativeSims\\Desktop\\GitHub\\Bret\\EFMPAutomation\\EFMPAutomation\\EFMPAutomation.csproj",
-        "packagesPath": "C:\\Users\\CreativeSims\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CreativeSims\\Desktop\\GitHub\\Bret\\EFMPAutomation\\EFMPAutomation\\obj\\",
+        "projectPath": "C:\\Desktop\\Bret\\EFMPAutomation\\EFMPAutomation\\EFMPAutomation.csproj",
+        "packagesPath": "C:\\Users\\gmuah\\.nuget\\packages\\",
+        "outputPath": "C:\\Desktop\\Bret\\EFMPAutomation\\EFMPAutomation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CreativeSims\\Desktop\\GitHub\\Bret\\NuGet.Config",
-          "C:\\Users\\CreativeSims\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Desktop\\Bret\\NuGet.Config",
+          "C:\\Users\\gmuah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\CreativeSims\\Desktop\\GitHub\\Bret\\MedchartSeleniumAutomationCore\\MedchartSeleniumAutomationCore.csproj": {
-                "projectPath": "C:\\Users\\CreativeSims\\Desktop\\GitHub\\Bret\\MedchartSeleniumAutomationCore\\MedchartSeleniumAutomationCore.csproj"
+              "C:\\Desktop\\Bret\\MedchartSeleniumAutomationCore\\MedchartSeleniumAutomationCore.csproj": {
+                "projectPath": "C:\\Desktop\\Bret\\MedchartSeleniumAutomationCore\\MedchartSeleniumAutomationCore.csproj"
               }
             }
           }
@@ -105,15 +105,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CreativeSims\\Desktop\\GitHub\\Bret\\MedchartSeleniumAutomationCore\\MedchartSeleniumAutomationCore.csproj": {
+    "C:\\Desktop\\Bret\\MedchartSeleniumAutomationCore\\MedchartSeleniumAutomationCore.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\CreativeSims\\Desktop\\GitHub\\Bret\\MedchartSeleniumAutomationCore\\MedchartSeleniumAutomationCore.csproj",
+        "projectUniqueName": "C:\\Desktop\\Bret\\MedchartSeleniumAutomationCore\\MedchartSeleniumAutomationCore.csproj",
         "projectName": "MedchartSeleniumAutomationCore",
-        "projectPath": "C:\\Users\\CreativeSims\\Desktop\\GitHub\\Bret\\MedchartSeleniumAutomationCore\\MedchartSeleniumAutomationCore.csproj"
+        "projectPath": "C:\\Desktop\\Bret\\MedchartSeleniumAutomationCore\\MedchartSeleniumAutomationCore.csproj"
       },
       "frameworks": {
         "net472": {}
