@@ -23,33 +23,33 @@ namespace facebook1
 
             IWebElement Electronics = driver.FindElement(By.LinkText("Electronics"));
 
-            Electronics.Click();
+          
 
 
-            //driver.Manage().Timeouts().ImplicitWait();
+            
 
 
 
 
-            ////driver.Manage().Timeouts().ImplicitWait();
-            //IWebElement Iphone = driver.FindElement(By.LinkText("Electronics"));
-            //  // IWebElement Iphone = driver.FindElement(By.XPath("//a[@href="https://www.ebay.com/b/Apple-iPhone/9355/bn_319682"]));
-
-
-            //IWebElement AppleAddress = driver.FindElement(By.LinkText("Apple"));
            
+            IWebElement Iphone = driver.FindElement(By.LinkText("iPhone"));
+            
+
+
+           
+
 
             Actions action = new Actions(driver);
             action.Click(Electronics);
-            
-            //action.MoveToElement(Electronics).Build().Perform();
+
+            action.MoveToElement(Electronics).Build().Perform();
 
 
-            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
 
-            ////action.MoveToElement(Iphone).Click();
+            action.MoveToElement(Iphone).Click();
 
-            //action.Click(Iphone);
+            action.Click(Iphone);
 
 
             //AppleAddress.Click();
@@ -58,7 +58,7 @@ namespace facebook1
 
 
 
-            
+
 
 
 
